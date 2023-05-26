@@ -1,0 +1,828 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+main {
+  width: 100%;
+  padding: 20px;
+}
+.filterTxt {
+  position: absolute;
+  left: 80px;
+  top: 15px;
+  color: #ea4598;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 16px;
+}
+.filterTxt1 {
+  position: absolute;
+  left: 150px;
+  top: 15px;
+  color: #8845e4;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 16px;
+}
+.filterBar {
+  position: absolute;
+  width: 304px;
+  height: 1500px;
+  left: 1600px;
+  top: 86px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.filterButton1 {
+  position: absolute;
+  width: 80px;
+  height: 35px;
+  left: 10px;
+  top: 63px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: #0f0e0e;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+}
+.filterButton1.clicked {
+  background: #2958ae;
+  color: white;
+}
+.check1 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 60px;
+}
+.filterButton2 {
+  position: absolute;
+  width: 80px;
+  height: 35px;
+  left: 10px;
+  top: 123px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+}
+.filterButton2.clicked {
+  background: #2958ae;
+  color: white;
+}
+.check2 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 120px;
+}
+.filterButton3 {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 10px;
+  top: 180px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+}
+.filterButton3.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton4.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton5.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton6.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton7.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton8.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton9.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton10.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton11.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton12.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton13.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton14.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton15.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton16.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton17.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton18.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton19.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton20.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton21.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton22.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton23.clicked {
+  background: #2958ae;
+  color: white;
+}
+.filterButton24.clicked {
+  background: #2958ae;
+  color: white;
+}
+.check3 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 180px;
+}
+.filterButton4 {
+  position: absolute;
+  width: 115px;
+  height: 40px;
+  left: 10px;
+  top: 240px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+}
+.check4 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 240px;
+}
+.filterButton5 {
+  position: absolute;
+  width: 110px;
+  height: 40px;
+  left: 10px;
+  top: 300px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+}
+.check5 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 300px;
+}
+.filterButton6 {
+  position: absolute;
+  width: 110px;
+  height: 40px;
+  left: 10px;
+  top: 360px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+}
+.check6 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 360px;
+}
+.filterButton7 {
+  position: absolute;
+  width: 115px;
+  height: 40px;
+  left: 10px;
+  top: 430px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+.check7 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 420px;
+}
+.filterButton8 {
+  position: absolute;
+  width: 165px;
+  height: 40px;
+  left: 135px;
+  top: 430px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+.check8 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 480px;
+}
+.filterButton9 {
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  left: 10px;
+  top: 570px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+}
+.check9 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 540px;
+}
+.filterButton10 {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 10px;
+  top: 640px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+}
+.check10 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 600px;
+}
+.filterButton11 {
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  left: 200px;
+  top: 710px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+}
+.check11 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 660px;
+}
+.filterButton12 {
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  left: 10px;
+  top: 710px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+}
+.check12 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 720px;
+}
+.filterButton13 {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 145px;
+  top: 780px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+.check13 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 780px;
+}
+.filterButton14 {
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  left: 120px;
+  top: 640px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+}
+.check14 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 840px;
+}
+.filterButton15 {
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  left: 10px;
+  top: 780px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+.check15 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 900px;
+}
+.filterButton16 {
+  position: absolute;
+  width: 170px;
+  height: 40px;
+  left: 130px;
+  top: 360px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+}
+.check16 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 960px;
+}
+.filterButton17 {
+  position: absolute;
+  width: 190px;
+  height: 40px;
+  left: 100px;
+  top: 120px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+}
+.check17 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 1020px;
+}
+.filterButton18 {
+  position: absolute;
+  width: 170px;
+  height: 40px;
+  left: 120px;
+  top: 180px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+}
+.check18 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 1080px;
+}
+.filterButton19 {
+  position: absolute;
+  width: 190px;
+  height: 40px;
+  left: 96px;
+  top: 60px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+}
+.check19 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 1140px;
+}
+.filterButton20 {
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  left: 10px;
+  top: 500px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+}
+.check20 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 1200px;
+}
+.filterButton21 {
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  left: 160px;
+  top: 500px;
+  /* background: linear-gradient(94.74deg, #f27f95 2.55%, #a880e4 116.4%); */
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+}
+.check21 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 1260px;
+}
+.filterButton22 {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 150px;
+  top: 570px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+.check22 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 1320px;
+}
+.filterButton23 {
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  left: 130px;
+  top: 240px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+}
+.check23 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 1380px;
+}
+.filterButton24 {
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  left: 130px;
+  top: 300px;
+  background: rgb(216, 212, 212);
+  border-radius: 50%;
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+.check24 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 250px;
+  top: 1440px;
+}
+.customerIDBox {
+  position: absolute;
+  width: 650px;
+  height: 70px;
+  left: 400px;
+  top: 120px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 25px;
+  color: #565151;
+  padding-left: 30px;
+}
+.searchbutton {
+  position: absolute;
+  width: 250px;
+  height: 70px;
+  left: 1100px;
+  top: 120px;
+  background: #2958ae;
+  border-color: #2958ae;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+
+  font-family: 'League Spartan';
+  font-weight: 700;
+  font-size: 45px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  justify-content: center;
+}
+.filterCard {
+  position: absolute;
+  width: 550px;
+  height: 200px;
+  /* left: 350px;
+  top: 250px; */
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+.inputbox {
+  position: absolute;
+  width: 455px;
+  height: 60px;
+  left: 45px;
+  top: 80px;
+  background: #ffffff;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  font-size: 20px;
+  color: #565151;
+  padding-left: 30px;
+}
+.fieldText {
+  position: absolute;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 25px;
+  line-height: 7px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #2958ae;
+  position: absolute;
+  left: 65px;
+  top: 40px;
+  text-align: center;
+}
+.optionText {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  color: #1d1e1e;
+}
+
+.table-container {
+  overflow: auto;
+  max-width: 80%;
+  max-height: 1000px;
+  margin-left: 330px;
+  position: relative; /* Adjust the height as needed */
+}
+.table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #2958ae;
+  color: #ffffff;
+  opacity: 0.85;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-right: 1px solid #ffffff;
+  z-index: 1; /* Add this line */
+}
+
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table th {
+  background-color: #2958ae;
+  color: #ffffff;
+  opacity: 0.85;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-right: 1px solid #ffffff;
+}
+
+
+.table td {
+  color: #000000;
+  font-size: 18px;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #e8e8e8;
+  opacity: 0.85;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #d2cece;
+  opacity: 0.85;
+}
+
+.table td:first-child,
+.table th:first-child {
+  border-left: none;
+}
+
+.table td:last-child,
+.table th:last-child {
+  border-right: none;
+  border-right: none;
+}
+
+.extended {
+  position: absolute;
+  width: 1680px;
+  height: 85px;
+  left: 1900px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
