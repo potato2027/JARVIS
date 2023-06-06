@@ -43,7 +43,7 @@ const Login = ({ handleClick }) => {
       password: password
     }
     console.log(submitData)
-    let response = await fetch('http://127.0.0.1:3001/user/users', {
+    let response = await fetch('https://jarvisfyp.vercel.app/user/users', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
