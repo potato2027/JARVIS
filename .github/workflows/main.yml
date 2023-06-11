@@ -1,0 +1,27 @@
+name: Python Test
+
+on:
+  pull_request:
+    branches: [main, master, usman, amna, faizan]
+    types: [closed]
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    if: github.event.pull_request.merged == true || github.event.push==true
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - uses: actions/checkout@v2
+  
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8.16
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8.16
+    - name: checkout repo
+      uses: actions/checkout@v2
